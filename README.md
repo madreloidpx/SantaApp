@@ -1,6 +1,8 @@
 # How to run
 installing the program: `npm install`
+
 starting the program: `npm run`
+
 running tests (ongoing): `npm test`
 
 # nodejs coding challenge:
