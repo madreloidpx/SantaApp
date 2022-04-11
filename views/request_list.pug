@@ -1,0 +1,10 @@
+mixin childDetails(child) 
+    div
+        h2= child.username
+        ul
+            li= child.address 
+            li= child.request
+
+h1 Greetings Santa! Here's the list of requests from the children
+each child in child_list
+    +childDetails(child)
